@@ -1,0 +1,30 @@
+{
+    "name": "moves/conventional-commits",
+    "description": "",
+    "keywords": [],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nick Rupert",
+            "email": "nick@tyrannosaurustech.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "ramsey/conventional-commits": "^1.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Moves\\ConventionalCommits\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
